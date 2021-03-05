@@ -1,0 +1,88 @@
+.bodycontainer {
+  background-color: #8dae12;
+  height: 100%;
+  width: auto;
+  border-bottom-left-radius: 140% 40%;
+  border-bottom-right-radius: 140% 40%;
+  text-align: start;
+  padding: 2em;
+  padding-bottom: 10em;
+  color: white;
+}
+
+.infobox {
+  color: black;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-top: 1%;
+}
+
+.email {
+  margin-top: 3em;
+}
+
+.form-group {
+  margin-top: 2em;
+}
+
+.imagecontainer {
+  float: right;
+}
+
+#header {
+  width: 50%;
+  font-size: 2em;
+  font-weight: 500;
+  overflow-wrap: break-word;
+  margin: 0;
+  margin-top: 1em;
+}
+
+#description {
+  display: block;
+  font-size: small;
+  line-height: 170%;
+  width: 50%;
+  margin-top: 2em;
+}
+
+#description2 {
+  display: block;
+  font-size: small;
+  line-height: 170%;
+  width: 30%;
+  margin-top: 2em;
+  color: black;
+}
+
+#help {
+  margin-top: 30%;
+  font-size: 2em;
+}
+
+#emailbutton {
+  background-color: purple;
+  margin-left: 1em;
+  width: 30%;
+  padding: 1em;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+#emailbutton :hover {
+  background-color: wheat;
+}
+
+#inputbox {
+  width: 30%;
+  height: 3em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+#image {
+  width: 90%;
+  height: 100%;
+}
