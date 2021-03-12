@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import Typed from "react-typed"
 import studychick from '../../assets/studychick.jpg'
-
 import styles from "./body.css"
 
 const Body = () => {
@@ -37,7 +36,6 @@ const Body = () => {
             <div>
                 <span id="description2">PeerOne is available to a limited number of students as Mentors will be available on a first-come, first-serve basis.</span>
             </div>
-
 
         </div>
     )
