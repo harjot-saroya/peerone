@@ -1,10 +1,10 @@
 .carousel {
   margin: 2em;
-  margin-left: 5em;
+  margin-left: 10em;
 }
 
 .container {
-  width: 20em;
+  width: 12em;
   padding: 0;
   margin: 0;
   border-style: solid;
@@ -16,24 +16,24 @@
   display: inline-block;
   text-align: center;
   width: 100%;
-  font-size: 120%;
+  font-size: 90%;
   font-weight: 700;
   color: #8dae12;
 }
 #image {
   width: 100%;
-  height: 20em;
+  height: 50%;
 }
 #school {
   display: inline-block;
   text-align: center;
   width: 100%;
-  font-size: 90%;
+  font-size: 80%;
 }
 #program {
   display: inline-block;
   text-align: center;
   width: 100%;
-  font-size: 90%;
+  font-size: 80%;
   margin-bottom: 1em;
 }
