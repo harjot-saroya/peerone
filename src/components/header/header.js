@@ -1,5 +1,5 @@
 import react from "react"
-import testlogo from '../../assets/testlogo.jpeg'
+import testlogo from '../../assets/peerone.jpeg'
 import styles from './header.css'
 
 

@@ -4,7 +4,7 @@
 }
 
 .container {
-  width: 12em;
+  width: 14em;
   padding: 0;
   margin: 0;
   border-style: solid;
@@ -12,6 +12,18 @@
   border-width: 1px;
   margin-bottom: 2em;
 }
+
+.mentortext {
+  margin-top: 2em;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+#special {
+  font-style: italic;
+  color: #8dae12;
+}
+
 #name {
   display: inline-block;
   text-align: center;
@@ -21,8 +33,8 @@
   color: #8dae12;
 }
 #image {
-  width: 100%;
-  height: 50%;
+  width: 14em;
+  height: 14em;
 }
 #school {
   display: inline-block;

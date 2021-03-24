@@ -1,4 +1,6 @@
 .elements {
+  position: fixed;
+  z-index: 2;
   display: flex;
   width: 100%;
   max-height: 10%;
@@ -12,15 +14,16 @@
 }
 
 #logo {
-  width: 7em;
-  max-height: 9em;
+  width: 11em;
+  min-height: 2em;
+  margin: 1em;
 }
 
 #browsebutton {
   position: absolute;
   margin-left: 80%;
   margin-right: 20%;
-  top: 5%;
+  margin-top: 1%;
   white-space: nowrap;
   padding: 1%;
   font-size: 80%;
