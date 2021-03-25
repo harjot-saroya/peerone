@@ -7,5 +7,6 @@ import kelly from './mentors/kelly.jpg'
 import ryan from './mentors/ryan.jpg'
 import york from './mentors/york.jpg'
 import sam from './mentors/sam.jpg'
+import chairgirl from './chairgirl.png'
 
-export {julia, kath, desmond, filo, joey, kelly, ryan, york, sam}
+export {julia, kath, desmond, filo, joey, kelly, ryan, york, sam, chairgirl}

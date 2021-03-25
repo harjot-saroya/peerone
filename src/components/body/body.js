@@ -29,7 +29,7 @@ const Body = () => {
                     loop
                 />
             </div>
-            <div className="form-group">
+            <div className="form-group-body">
             <input id="inputbox" placeholder="Email me when its ready" type="text" className="form-control" onChange={emailHandler}/>
             <a id="emailbutton" for="email" type="submit" href="google.ca" onSubmit={emailHandler}>Reserve spot</a>
             </div>

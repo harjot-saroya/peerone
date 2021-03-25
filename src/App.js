@@ -4,6 +4,8 @@ import Header from './components/header/header'
 import Body from './components/body/body'
 import Mentors from './components/mentors/mentors'
 import MentorForm from './components/mentorform/mentorform'
+import Tutorial from './components/tutorial/tutorial'
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <Body></Body>
         <Mentors></Mentors>
         <MentorForm></MentorForm>
+        <Tutorial></Tutorial>
     </div>
   );
 }
