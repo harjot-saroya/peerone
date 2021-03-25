@@ -8,5 +8,9 @@ import ryan from './mentors/ryan.jpg'
 import york from './mentors/york.jpg'
 import sam from './mentors/sam.jpg'
 import chairgirl from './chairgirl.png'
+import beanbag from './beanbag.png'
+import seperator from './seperator.png'
+import discuss from './discuss.png'
+import confused from './confused.png'
 
-export {julia, kath, desmond, filo, joey, kelly, ryan, york, sam, chairgirl}
+export {julia, kath, desmond, filo, joey, kelly, ryan, york, sam, chairgirl, beanbag, seperator, discuss, confused}

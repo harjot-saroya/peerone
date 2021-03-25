@@ -1,0 +1,52 @@
+.bullet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.header {
+  margin: 4em;
+}
+.bullet img {
+  width: 80%;
+  height: 90%;
+}
+
+.textone {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  text-align: start;
+  margin-right: 5%;
+}
+
+.texttwo {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  text-align: start;
+  margin-left: 17%;
+}
+
+#topic {
+  width: 80%;
+  font-weight: 800;
+  font-size: 30px;
+  color: #8eae15;
+}
+
+#header {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#desc {
+  width: 75%;
+  line-height: 2em;
+}
+
+#rev {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
