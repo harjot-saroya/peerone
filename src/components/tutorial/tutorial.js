@@ -18,13 +18,6 @@ const Tutorial = () => {
         )
     }
 
-    const sep = () => {
-        return(
-        <div>
-            <img src={seperator}></img>
-        </div>
-        )
-    }
     const revbullet = (t1,t2,pic) => {
         return(
             <div className="bullet">
