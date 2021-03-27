@@ -12,5 +12,6 @@ import beanbag from './beanbag.png'
 import seperator from './seperator.png'
 import discuss from './discuss.png'
 import confused from './confused.png'
+import descpic from './descpic.png'
 
-export {julia, kath, desmond, filo, joey, kelly, ryan, york, sam, chairgirl, beanbag, seperator, discuss, confused}
+export {julia, kath, desmond, filo, joey, kelly, ryan, york, sam, chairgirl, beanbag, seperator, discuss, confused, descpic}

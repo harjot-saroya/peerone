@@ -1,0 +1,35 @@
+.descheader {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.descitems {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5em;
+}
+
+.lefttext ul {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.lefttext span {
+  line-height: 1em;
+}
+
+.textblock {
+  margin-bottom: 1em;
+}
+
+.lefttext {
+  text-align: start;
+  font-size: 20px;
+}
+
+#bold {
+  font-weight: 800;
+}
