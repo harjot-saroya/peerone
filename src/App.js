@@ -7,6 +7,7 @@ import Tutorial from './components/tutorial/tutorial'
 import Description from './components/desc/desc'
 import Infobar from './components/infobar/infobar'
 import Schools from './components/schools/schools'
+import Faq from './components/faq/Faq'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Description></Description>
         <Infobar></Infobar>
         <Schools></Schools>
+        <Faq></Faq>
     </div>
   );
 }
