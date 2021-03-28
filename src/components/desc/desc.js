@@ -1,5 +1,4 @@
-import react from "react"
-import styles from './desc.css'
+import './desc.css'
 import {descpic} from '../../assets/index'
 const Description = () => {
 
@@ -12,7 +11,7 @@ const Description = () => {
                 <div className="lefttext">
                     <div className="textblock">
                     <span>
-                    A world of admissions knowledge at your fingertips,</span> <span id="bold"> the world-class cost</span>
+                    A world of admissions knowledge at your fingertips,</span> <span id="bold"> without the world-class cost </span>
                     </div>
 
                     <span id="bold">Did you know …</span>

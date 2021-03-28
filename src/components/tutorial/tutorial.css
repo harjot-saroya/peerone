@@ -5,6 +5,11 @@
   margin-bottom: 3em;
 }
 
+.tutorial {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
   margin: 4em;
 }
@@ -36,7 +41,7 @@
   color: #8eae15;
 }
 
-#header {
+#tutheader {
   font-size: 40px;
   font-weight: 700;
 }

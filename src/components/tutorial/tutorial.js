@@ -35,7 +35,7 @@ const Tutorial = () => {
     return(
         <div className="tutorial">
             <div className="header">
-                <span id="header">HOW IT WORKS</span>
+                <span id="tutheader">HOW IT WORKS</span>
             </div>
             <div className="bullets">
                 {bullet('1. Find your perfect Peer Mentor','Use our easy-to-use filter search to find your perfect Peer Mentor within PeerOne’s extensive network based on school, major, career aspirations and more.', beanbag)}

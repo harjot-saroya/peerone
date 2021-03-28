@@ -61,7 +61,6 @@ const MentorForm = () => {
     ) : ("")
 
     return(
-        <div>
             <div className="mentorform">
                 <div className="form-group">
                     <span id="question">What university are you looking for?</span>
@@ -102,10 +101,9 @@ const MentorForm = () => {
                     {submitMsg}
                 </div>
                 <div className="photo">
-                            <img id="pic" src={chairgirl}></img>
+                        <img id="pic" src={chairgirl}></img>
                 </div>
             </div>
-        </div>
     )
 }
 

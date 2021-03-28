@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Typed from "react-typed"
 import studychick from '../../assets/studychick.jpg'
-import styles from "./body.css"
+import "./body.css"
 
 const Body = () => {
     const [email, setEmail] = useState('');
@@ -10,13 +10,13 @@ const Body = () => {
     }
     return (
         <div className="bodycontainer">
-                        <div className="imagecontainer">
+            <div className="imagecontainer">
                 <img src={studychick} id="bodyimage">
                 </img>
             </div>
             <h1 id="header">College applications can be stressful, but they don't have to be.</h1>
 
-            <span id="description"> Stressed about university/college applications or know a student who could use a bit of help? PeerOne’s student Peer Mentors know exactly what that feels like. From scholarships to admission essays, our mentors know the ins and outs of the application process to guide new students to where they want to be.</span>
+            <span id="description"> High school students: meet 1-on-1 with current undergrads at the colleges you’re applying to. </span>
             <br />
 
             <span id="help">I need help with </span>

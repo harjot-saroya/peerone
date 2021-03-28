@@ -5,9 +5,13 @@
   border-bottom-left-radius: 140% 40%;
   border-bottom-right-radius: 140% 40%;
   text-align: start;
-  padding: 2em;
+  padding-top: 7em;
+  padding-left: 7em;
   padding-bottom: 10em;
   color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 9em;
 }
 
 .infobox {
@@ -26,6 +30,8 @@
 }
 
 .imagecontainer {
+  padding-top: 3em;
+  padding-right: 4em;
   float: right;
 }
 

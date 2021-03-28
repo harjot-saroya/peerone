@@ -25,7 +25,7 @@ const responsive = {
   };
 const Mentors = () => {
     return (
-        <div>
+        <div className="mentorcarousel">
             <div className="mentortext">
                 <span id="special">Real advice </span>
                 <span>from</span>

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import Typed from "react-typed"
 import {suit,hand,speak} from '../../assets/index.js'
 import styles from "./infobar.css"

@@ -10,3 +10,8 @@
 .pics {
   margin-bottom: 2em;
 }
+
+.pics img {
+  width: 80%;
+  height: 50%;
+}
