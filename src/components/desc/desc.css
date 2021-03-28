@@ -7,9 +7,14 @@
 .descitems {
   display: flex;
   flex-direction: row;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lefttext {
+  width: 70%;
 }
 
 .lefttext ul {
@@ -29,12 +34,20 @@
 .textblock {
   margin-bottom: 1em;
   line-height: 2em;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .lefttext {
   text-align: start;
   font-size: 17px;
+}
+
+.descpic {
+  margin-left: 5em;
+}
+
+.descpic img {
+  width: 300;
+  height: 300;
 }
 
 #bold {

@@ -6,6 +6,8 @@ import Mentors from './components/mentors/mentors'
 import MentorForm from './components/mentorform/mentorform'
 import Tutorial from './components/tutorial/tutorial'
 import Description from './components/desc/desc'
+import Infobar from './components/infobar/infobar'
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <MentorForm></MentorForm>
         <Tutorial></Tutorial>
         <Description></Description>
+        <Infobar></Infobar>
     </div>
   );
 }
