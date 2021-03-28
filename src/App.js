@@ -7,7 +7,7 @@ import MentorForm from './components/mentorform/mentorform'
 import Tutorial from './components/tutorial/tutorial'
 import Description from './components/desc/desc'
 import Infobar from './components/infobar/infobar'
-
+import Schools from './components/schools/schools'
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Tutorial></Tutorial>
         <Description></Description>
         <Infobar></Infobar>
+        <Schools></Schools>
     </div>
   );
 }

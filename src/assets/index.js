@@ -16,5 +16,9 @@ import descpic from './descpic.png'
 import suit from './suit.png'
 import hand from './hand.png'
 import speak from './speak.png'
+import row1 from './row1.png'
+import row2 from './row2.png'
+import row3 from './row3.png'
+import row4 from './row4.png'
 
-export {julia, kath, desmond, filo, joey, kelly, ryan, york, sam, chairgirl, beanbag, seperator, discuss, confused, descpic, suit, hand, speak}
+export {julia, kath, desmond, filo, joey, kelly, ryan, york, sam, chairgirl, beanbag, seperator, discuss, confused, descpic, suit, hand, speak, row1, row2, row3, row4}

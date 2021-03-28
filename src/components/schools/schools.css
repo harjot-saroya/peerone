@@ -1,0 +1,12 @@
+.schoolheader {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 33px;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.pics {
+  margin-bottom: 2em;
+}
