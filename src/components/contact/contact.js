@@ -48,8 +48,8 @@ const ContactForm = () => {
                                         <FontAwesomeIcon id="iconitem" icon={faMapMarkerAlt} color={'white'}></FontAwesomeIcon>
                                     </div>
                                     <div class="icontextcont">
-                                        <span id="topicon">Email</span>
-                                        <span id="bottomicon">info@peeroneacademy.com</span>
+                                        <span id="topicon">Address</span>
+                                        <span id="bottomicon">Vancouver, BC Canada</span>
                                     </div>
                                 </div>
 
