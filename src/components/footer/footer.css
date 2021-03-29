@@ -1,0 +1,14 @@
+.footer span {
+  text-align: center;
+  color: #5a5a5a;
+  font-size: 15px;
+}
+
+.footer {
+  padding: 1em;
+  background-color: black;
+}
+
+#bold {
+  font-weight: 900;
+}

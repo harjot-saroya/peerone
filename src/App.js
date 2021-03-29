@@ -7,7 +7,9 @@ import Tutorial from './components/tutorial/tutorial'
 import Description from './components/desc/desc'
 import Infobar from './components/infobar/infobar'
 import Schools from './components/schools/schools'
+import ContactForm from './components/contact/contact'
 import Faq from './components/faq/Faq'
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Infobar></Infobar>
         <Schools></Schools>
         <Faq></Faq>
+        <ContactForm></ContactForm>
+        <Footer></Footer>
     </div>
   );
 }

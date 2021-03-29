@@ -1,0 +1,146 @@
+.cont-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.bulleticon {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+}
+
+.bulleticon span {
+  margin-left: 2em;
+}
+
+.icon {
+  text-align: center;
+  margin-bottom: 1em;
+  width: 18px;
+  height: 18px;
+  border-style: solid;
+  border-radius: 360px;
+  color: #8fae15;
+  background-color: #8fae15;
+}
+
+.contact {
+  margin-bottom: 5em;
+}
+
+.leftside {
+  width: 100%;
+}
+
+.map {
+  margin-top: auto;
+  width: 50%;
+}
+
+.items {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cont-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.cont-form-group {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.userinfo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.cont-form span {
+  width: 50%;
+  display: block;
+  margin-bottom: 2em;
+}
+
+.map {
+  width: 50%;
+}
+
+.icontextcont {
+  margin-left: 1em;
+}
+
+#message {
+  width: auto;
+  height: 10em;
+  background-color: #e8e8e8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+#cont-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3em;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+#inpbox {
+  background-color: #e8e8e8;
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 3px;
+  height: 3em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+#cont-question {
+  width: 5em;
+}
+
+#innerhead {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#innerdesc {
+  width: 100%;
+}
+
+#topicon {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+#bottomicon {
+  font-size: 15px;
+  font-weight: 500;
+}
