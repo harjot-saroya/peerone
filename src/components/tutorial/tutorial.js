@@ -39,11 +39,11 @@ const Tutorial = () => {
             </div>
             <div className="bullets">
                 {bullet('1. Find your perfect Peer Mentor','Use our easy-to-use filter search to find your perfect Peer Mentor within PeerOne’s extensive network based on school, major, career aspirations and more.', beanbag)}
-                <div>
+                <div id="sep">
                     <img src={seperator}></img>
                 </div>
                 {revbullet('2. Make the first move','Once you find your Peer Mentor, make the first move. Whether you want to schedule a one-on-one video call, start a quick question thread or simply submit your essay for review, send in your request and wait for your Peer Mentor to confirm.',discuss)}
-                <div>
+                <div id="sep">
                     <img id="rev" src={seperator}></img>
                 </div>
                 {bullet('3. Get the facts','Peer Mentors know the ins and outs of the application process because they’ve done it before. They’ll guide you through every step of their application journey so you too can succeed on yours. Ask your mentor any questions you have about their application experience or their campus life and get the facts you need to make the best decisions for you.',confused)}

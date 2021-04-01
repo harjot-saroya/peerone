@@ -1,27 +1,64 @@
-.icon-background {
-  background-color: #8eae15;
-  width: 100%;
+@media (min-width: 350px) and (max-width: 980px) {
+  .icon-background {
+    background-color: #8eae15;
+    width: 100vw;
+  }
+
+  .icons {
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+  }
+
+  .icons span {
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+
+  .cell {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #bottext {
+    font-size: 13px;
+  }
 }
 
-.icons {
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-bottom: 3em;
-}
+@media (min-width: 981px) {
+  .icon-background {
+    background-color: #8eae15;
+    width: 100%;
+  }
 
-.icons th {
-  padding-top: 3em;
-}
+  .icons {
+    padding: 2em;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
 
-#toptext td {
-  font-size: 18px;
-  color: white;
-  padding-bottom: 1em;
-}
+  .icons span {
+    display: inline-block;
+    margin-bottom: 1em;
+  }
 
-#bottomtext {
-  width: 70%;
-  font-size: 13px;
-  color: white;
-  line-height: 2em;
+  .cell {
+    width: 100%;
+    margin: 1em;
+  }
+
+  #bottext {
+    font-size: 13px;
+    margin: 0;
+  }
 }

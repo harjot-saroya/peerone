@@ -1,57 +1,139 @@
-.bullet {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 3em;
+@media (min-width: 350px) and (max-width: 980px) {
+  .bullet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3em;
+  }
+
+  .bullets {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tutorial {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header {
+    width: 90vw;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bullet img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .textone {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    text-align: start;
+    margin-right: 5%;
+  }
+
+  .texttwo {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    text-align: start;
+  }
+
+  #sep {
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #sep img {
+    width: 80vw;
+  }
+
+  #topic {
+    width: 80%;
+    font-weight: 800;
+    font-size: 30px;
+    color: #8eae15;
+  }
+
+  #tutheader {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  #desc {
+    width: 75%;
+    line-height: 2em;
+  }
+
+  #rev {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
 }
 
-.tutorial {
-  margin-left: auto;
-  margin-right: auto;
-}
+@media (min-width: 981px) {
+  .bullet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3em;
+  }
 
-.header {
-  margin: 4em;
-}
-.bullet img {
-  width: 80%;
-  height: 90%;
-}
+  .tutorial {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.textone {
-  display: flex;
-  flex-direction: column;
-  width: 35%;
-  text-align: start;
-  margin-right: 5%;
-}
+  .header {
+    margin: 4em;
+  }
+  .bullet img {
+    width: 80%;
+    height: 90%;
+  }
 
-.texttwo {
-  display: flex;
-  flex-direction: column;
-  width: 35%;
-  text-align: start;
-  margin-left: 17%;
-}
+  .textone {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    text-align: start;
+    margin-right: 5%;
+  }
 
-#topic {
-  width: 80%;
-  font-weight: 800;
-  font-size: 30px;
-  color: #8eae15;
-}
+  .texttwo {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    text-align: start;
+    margin-left: 17%;
+  }
 
-#tutheader {
-  font-size: 40px;
-  font-weight: 700;
-}
+  #topic {
+    width: 80%;
+    font-weight: 800;
+    font-size: 30px;
+    color: #8eae15;
+  }
 
-#desc {
-  width: 75%;
-  line-height: 2em;
-}
+  #tutheader {
+    font-size: 40px;
+    font-weight: 700;
+  }
 
-#rev {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  #desc {
+    width: 75%;
+    line-height: 2em;
+  }
+
+  #rev {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
 }

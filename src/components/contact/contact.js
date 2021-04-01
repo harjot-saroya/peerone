@@ -59,7 +59,7 @@ const ContactForm = () => {
 
                     </div>
                     <div className="map">
-                    <iframe width={400} height={600} style={{border:0}} loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/view?zoom=11&center=49.2827%2C-123.1207&key=AIzaSyCJw6qBKY0HrGtDWnH29gbBUCyjwoMoWvk"></iframe>
+                    <iframe id="map" style={{border:0}} loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/view?zoom=11&center=49.2827%2C-123.1207&key=AIzaSyCJw6qBKY0HrGtDWnH29gbBUCyjwoMoWvk"></iframe>
                     </div>
 
                 </div>

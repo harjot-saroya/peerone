@@ -13,6 +13,12 @@
   }
 }
 
+@media (min-width: 350px) and (max-width: 980px) {
+  .App {
+    overflow-x: hidden;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

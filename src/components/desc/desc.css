@@ -1,61 +1,131 @@
-.descheader {
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+@media (min-width: 350px) and (max-width: 980px) {
+  .descheader {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+  }
+
+  .descitems {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .lefttext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+  }
+
+  .lefttext ul {
+    display: block;
+    margin-bottom: 1em;
+    line-height: 40%;
+  }
+
+  .lefttext li {
+    margin-bottom: 1em;
+  }
+
+  .lefttext span {
+    line-height: 1em;
+  }
+
+  .textblock {
+    margin-bottom: 1em;
+    line-height: 2em;
+  }
+
+  .lefttext {
+    text-align: start;
+    font-size: 17px;
+  }
+
+  .descpic {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+  }
+
+  .descpic img {
+    width: 20em;
+    height: 20em;
+  }
+
+  #bold {
+    font-weight: 800;
+  }
 }
 
-.descitems {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5em;
-  font-family: Arial, Helvetica, sans-serif;
-}
+@media (min-width: 981px) {
+  .descheader {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 
-.lefttext {
-  width: 35%;
-  margin-right: 4em;
-}
+  .descitems {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-.lefttext ul {
-  display: block;
-  margin-bottom: 1em;
-  line-height: 40%;
-}
+  .lefttext {
+    width: 35%;
+    margin-right: 4em;
+  }
 
-.lefttext li {
-  margin-bottom: 1em;
-}
+  .lefttext ul {
+    display: block;
+    margin-bottom: 1em;
+    line-height: 40%;
+  }
 
-.lefttext span {
-  line-height: 1em;
-}
+  .lefttext li {
+    margin-bottom: 1em;
+  }
 
-.textblock {
-  margin-bottom: 1em;
-  line-height: 2em;
-}
+  .lefttext span {
+    line-height: 1em;
+  }
 
-.lefttext {
-  text-align: start;
-  font-size: 17px;
-}
+  .textblock {
+    margin-bottom: 1em;
+    line-height: 2em;
+  }
 
-.descpic {
-  width: 30%;
-}
+  .lefttext {
+    text-align: start;
+    font-size: 17px;
+  }
 
-.descpic img {
-  width: 300;
-  height: 300;
-}
+  .descpic {
+    width: 30%;
+  }
 
-#bold {
-  font-weight: 800;
+  .descpic img {
+    width: 300;
+    height: 300;
+  }
+
+  #bold {
+    font-weight: 800;
+  }
 }
