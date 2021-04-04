@@ -3,7 +3,7 @@
     margin: 2em;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 100vw;
   }
 
   .photo-cont {
@@ -13,7 +13,7 @@
   }
 
   .textcont span {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .textcont {
@@ -28,22 +28,13 @@
   }
 
   .caro-container {
+    width: 100vw;
     margin-top: 2em;
   }
 
   .mentorcarousel {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .container {
-    width: 14em;
-    padding: 0;
-    margin: 0;
-    border-style: solid;
-    border-color: #8dae12;
-    border-width: 1px;
-    margin-bottom: 2em;
   }
 
   .mentortext {
@@ -68,6 +59,7 @@
   #special {
     font-style: italic;
     color: #8dae12;
+    display: block;
   }
 
   #name {
@@ -101,7 +93,7 @@
 
   #top {
     color: #8dae12;
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 600;
   }
 }
@@ -141,16 +133,6 @@
   .mentorcarousel {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .container {
-    width: 14em;
-    padding: 0;
-    margin: 0;
-    border-style: solid;
-    border-color: #8dae12;
-    border-width: 1px;
-    margin-bottom: 2em;
   }
 
   .mentortext {
