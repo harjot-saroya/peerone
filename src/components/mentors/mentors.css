@@ -1,58 +1,214 @@
-.carousel {
-  margin: 2em;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
+@media (min-width: 350px) and (max-width: 980px) {
+  .carousel {
+    margin: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .photo-cont {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .textcont span {
+    font-size: 10px;
+  }
+
+  .textcont {
+    border-style: solid;
+    border-color: #8dae12;
+    width: 30vw;
+    height: 33vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+    padding: 5%;
+  }
+
+  .caro-container {
+    margin-top: 2em;
+  }
+
+  .mentorcarousel {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    width: 14em;
+    padding: 0;
+    margin: 0;
+    border-style: solid;
+    border-color: #8dae12;
+    border-width: 1px;
+    margin-bottom: 2em;
+  }
+
+  .mentortext {
+    margin-top: 2em;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  .legend {
+    width: 5%;
+  }
+
+  #photos {
+    height: 30vw;
+    width: 30vw;
+  }
+
+  #photos img {
+    transform: scale(2.5);
+  }
+
+  #special {
+    font-style: italic;
+    color: #8dae12;
+  }
+
+  #name {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 90%;
+    font-weight: 700;
+    color: #8dae12;
+  }
+
+  #image {
+    width: 14em;
+    height: 14em;
+  }
+
+  #school {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 80%;
+  }
+
+  #program {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 80%;
+    margin-bottom: 1em;
+  }
+
+  #top {
+    color: #8dae12;
+    font-size: 17px;
+    font-weight: 600;
+  }
 }
 
-.mentorcarousel {
-  margin-left: auto;
-  margin-right: auto;
-}
+@media (min-width: 981px) {
+  .carousel {
+    margin: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 
-.container {
-  width: 14em;
-  padding: 0;
-  margin: 0;
-  border-style: solid;
-  border-color: #8dae12;
-  border-width: 1px;
-  margin-bottom: 2em;
-}
+  .photo-cont {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.mentortext {
-  margin-top: 2em;
-  font-size: 2em;
-  font-weight: 700;
-}
+  .textcont {
+    border-style: solid;
+    border-color: #8dae12;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+    padding: 3%;
+  }
 
-#special {
-  font-style: italic;
-  color: #8dae12;
-}
+  .textcont span {
+    font-size: 12px;
+  }
 
-#name {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  font-size: 90%;
-  font-weight: 700;
-  color: #8dae12;
-}
-#image {
-  width: 14em;
-  height: 14em;
-}
-#school {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  font-size: 80%;
-}
-#program {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  font-size: 80%;
-  margin-bottom: 1em;
+  .caro-container {
+    margin-top: 2em;
+  }
+
+  .mentorcarousel {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    width: 14em;
+    padding: 0;
+    margin: 0;
+    border-style: solid;
+    border-color: #8dae12;
+    border-width: 1px;
+    margin-bottom: 2em;
+  }
+
+  .mentortext {
+    margin-top: 2em;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  .legend {
+    width: 5%;
+  }
+
+  #photos {
+    height: 30vw;
+    width: 30vw;
+  }
+
+  #photos img {
+    transform: scale(2.5);
+  }
+
+  #special {
+    font-style: italic;
+    color: #8dae12;
+  }
+
+  #name {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 90%;
+    font-weight: 700;
+    color: #8dae12;
+  }
+
+  #image {
+    width: 14em;
+    height: 14em;
+  }
+
+  #school {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 80%;
+  }
+
+  #program {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 80%;
+    margin-bottom: 1em;
+  }
+
+  #top {
+    color: #8dae12;
+    font-size: 17px;
+    font-weight: 600;
+  }
 }

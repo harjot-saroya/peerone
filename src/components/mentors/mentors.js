@@ -1,31 +1,14 @@
 import React, { useState } from "react"
 import {julia,kath,desmond,filo,joey,kelly,ryan,york,sam} from '../../assets/index.js'
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import styles from "./mentors.css"
-const slideImages = [julia,kath,desmond,filo,joey,kelly,ryan,york,sam];
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+import "./mentors.css"
 
 
-const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-      slidesToSlide: 3 // optional, default to 1.
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 2 // optional, default to 1.
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-      slidesToSlide: 1 // optional, default to 1.
-    }
-  };
 const Mentors = () => {
     return (
-        <div className="mentorcarousel">
+        <div className="carousel">
             <div className="mentortext">
                 <span id="special">Real advice </span>
                 <span>from</span>
@@ -33,83 +16,119 @@ const Mentors = () => {
                 <br />
                 <span>Featured mentors</span>
             </div>
-
-
-            <div className="carousel">
-                <Carousel
-                className="photos"
-                    swipeable={false}
-                    draggable={false}
-                    showDots={true}
-                    responsive={responsive}
-                    ssr={true} // means to render carousel on server-side.
-                    infinite={true}
-                    autoPlay={true}
-                    autoPlaySpeed={1000}
-                    keyBoardControl={true}
-                    customTransition="all .5"
-                    transitionDuration={3000}
-                    containerClass="carousel-container"
-                    removeArrowOnDeviceType={["tablet", "mobile"]}
-                    dotListClass="custom-dot-list-style"
-                    itemClass="carousel-item-padding-40-px"
-                    >
-                    <div className="container">
-                        <img id="image" src={julia}></img>
-                        <span id="name">JULIA</span>
-                        <span id="school">New York University</span>
-                        <span id="program">Data Science and Management</span>
-                    </div>
-                    <div className="container">
-                        <img id="image" src={desmond}></img>
-                        <span id="name">DESMOND</span>
-                        <span id="school">Harvard University</span>
-                        <span id="program">Law</span>
-                    </div>
-                    <div className="container">
-                        <img id="image" src={kath}></img>
-                        <span id="name">KATHERON INTSON</span>
-                        <span id="school">Queens University</span>
-                        <span id="program">NSERC Canada Graduate Scholar (Doctoral)</span>
-                    </div>
-                    <div className="container">
-                        <img id="image" src={filo}></img>
-                        <span id="name">FILOMENA HARMANTAS</span>
-                        <span id="school">University Of Toronto</span>
-                        <span id="program">Juris Doctor Program, Law</span>
-                    </div>
-                    <div className="container">
-                        <img id="image" src={joey}></img>
-                        <span id="name">JOEY HUANG</span>
-                        <span id="school">University Of British Columbia</span>
-                        <span id="program">Marketing & Business Management</span>
-                    </div>
-                    <div className="container">
-                        <img id="image" src={kelly}></img>
-                        <span id="name">KELLY CHONG</span>
-                        <span id="school">University Of Western Ontario</span>
-                        <span id="program">Management And Organizational Studies</span>
-                    </div>
-                    <div className="container">
-                        <img id="image" src={ryan}></img>
-                        <span id="name">RYAN TIAN</span>
-                        <span id="school">Carnegie Mellon University</span>
-                        <span id="program">Architecture And Mathematics</span>
-                    </div>
-                    <div className="container">
-                        <img id="image" src={york}></img>
-                        <span id="name">YORK WANG</span>
-                        <span id="school">New York University</span>
-                        <span id="program">Data Science and Management</span>
-                    </div>
-                    <div className="container">
-                        <img id="image" src={sam}></img>
-                        <span id="name">SAM WIEDER</span>
-                        <span id="school">New York University</span>
-                        <span id="program">Finance & Data Science</span>
-                    </div>
-                    </Carousel>
+            <div className="caro-container">
+                <Carousel centerSlidePercentage={33} centerMode showStatus={false}>
+                        <div className="slide">
+                            <div className="photo-cont">
+                            <img id="photos"src={julia} />
+                            </div>
+                            <div className="textcont">
+                                <span id="top">JULIA LI</span>
+                                <br />
+                                <span>New York University</span>
+                                <br />
+                                <span>Data Science and Management</span>
+                            </div>
+                        </div>
+                        <div className="slide">
+                            <div className="photo-cont">
+                            <img id="photos"src={kath} />
+                            </div>
+                            <div className="textcont">
+                                <span id="top">KATHERON INTSON</span>
+                                <br />
+                                <span>Queens University</span>
+                                <br />
+                                <span>NSERC Canada Graduate Scholar (Doctoral)</span>
+                            </div>
+                        </div>
+                        <div className="slide">
+                            <div className="photo-cont">
+                            <img id="photos"src={desmond} />
+                            </div>
+                            <div className="textcont">
+                                <span id="top">DESMOND SIADAT</span>
+                                <br />
+                                <span>Harvard University</span>
+                                <br />
+                                <span>Law</span>
+                            </div>
+                        </div>
+                        <div className="slide">
+                            <div className="photo-cont">
+                            <img id="photos"src={filo} />
+                            </div>
+                            <div className="textcont">
+                                <span id="top">FILOMENA HARMANTAS</span>
+                                <br />
+                                <span>University Of Toronto</span>
+                                <br />
+                                <span>Juris Doctor Program, Law</span>
+                            </div>
+                        </div>
+                        <div className="slide">
+                            <div className="photo-cont">
+                            <img id="photos"src={joey} />
+                            </div>
+                            <div className="textcont">
+                                <span id="top">JOEY HUANG</span>
+                                <br />
+                                <span>University Of British Columbia</span>
+                                <br />
+                                <span>Marketing & Business Management</span>
+                            </div>
+                        </div>
+                        <div className="slide">
+                            <div className="photo-cont">
+                            <img id="photos"src={kelly} />
+                            </div>
+                            <div className="textcont">
+                                <span id="top">KELLY CHONG</span>
+                                <br />
+                                <span>University Of Western Ontario</span>
+                                <br />
+                                <span>Management And Organizational Studies</span>
+                            </div>
+                        </div>
+                        <div className="slide">
+                            <div className="photo-cont">
+                            <img id="photos"src={ryan} />
+                            </div>
+                            <div className="textcont">
+                                <span id="top">RYAN TIAN</span>
+                                <br />
+                                <span>Carnegie Mellon University</span>
+                                <br />
+                                <span>Architecture And Mathematics</span>
+                            </div>
+                        </div>
+                        <div className="slide">
+                            <div className="photo-cont">
+                            <img id="photos"src={york} />
+                            </div>
+                            <div className="textcont">
+                                <span id="top">YORK WANG</span>
+                                <br />
+                                <span>John Hopkins University</span>
+                                <br />
+                                <span>Molecular & Cellular Biology</span>
+                            </div>
+                        </div>
+                        <div className="slide">
+                            <div className="photo-cont">
+                            <img id="photos"src={sam} />
+                            </div>
+                            <div className="textcont">
+                                <span id="top">SAM WIEDER</span>
+                                <br />
+                                <span>New York University</span>
+                                <br />
+                                <span>Finance & Data Science</span>
+                            </div>
+                        </div>
+                </Carousel>
             </div>
+
         </div>
     )
 }

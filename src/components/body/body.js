@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Typed from "react-typed"
-import studychick from '../../assets/studychick.jpg'
+import {studychick} from '../../assets/index.js'
 import "./body.css"
 
 const Body = () => {

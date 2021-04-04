@@ -197,7 +197,11 @@
 
   .map {
     margin-top: auto;
-    width: 50%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 60vw;
   }
 
   .items {
@@ -236,12 +240,13 @@
     margin-bottom: 2em;
   }
 
-  .map {
-    width: 50%;
-  }
-
   .icontextcont {
     margin-left: 1em;
+  }
+
+  #map {
+    width: 80%;
+    height: 80%;
   }
 
   #message {
