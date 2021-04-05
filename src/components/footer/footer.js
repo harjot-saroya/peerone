@@ -6,7 +6,7 @@ import './footer.css'
 const Footer = () => {
     return(
         <div className="footer">
-            <span>Peerone Academy - All Rights Reserved © 2021 | Designed By <span id="bold">WEBCUBE</span></span>
+            <span>Peerone Academy - All Rights Reserved © 2021</span>
         </div>
     )
 }
