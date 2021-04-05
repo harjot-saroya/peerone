@@ -54,9 +54,6 @@
 .Collapsible__trigger:after {
   visibility: visible;
   color: limegreen;
-  content: "\f058" !important;
-  font-weight: 900;
-  font-family: "Font Awesome 5 Free";
   position: absolute;
   right: 10px;
   top: 0;
@@ -66,6 +63,7 @@
 
 .Collapsible__trigger.is-open:after {
   transform: rotateZ(180deg);
+  display: none;
 }
 
 .Collapsible__trigger.is-disabled {
