@@ -22,7 +22,7 @@ const Body = () => {
                 <div className="infobox">
                     
                     <Typed
-                        strings={["This is a test string bro","Get rekt",'Here you can find anything', "Test 1 2 3 4", ]}
+                        strings={["My Admission essays","Interview prep","Financial Aid","Campus Life", "Sports Recruitment", "Scholarship", "My college application"]}
                         typeSpeed={60}
                         loop
                     />

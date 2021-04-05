@@ -103,7 +103,7 @@
     margin: 2em;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 70%;
   }
 
   .photo-cont {
@@ -115,7 +115,8 @@
   .textcont {
     border-style: solid;
     border-color: #8dae12;
-    width: 30vw;
+    width: 20vw;
+    height: 7vw;
     margin-left: auto;
     margin-right: auto;
     border-width: 2px;
@@ -150,8 +151,9 @@
   }
 
   #photos {
-    height: 30vw;
-    width: 30vw;
+    height: 25vw;
+    width: 20vw;
+    object-fit: cover;
   }
 
   #photos img {
