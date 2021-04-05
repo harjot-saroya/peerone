@@ -17,7 +17,7 @@ const Mentors = () => {
                 <span>Featured mentors</span>
             </div>
             <div className="caro-container">
-                <Carousel centerSlidePercentage={33} centerMode showStatus={false}>
+                <Carousel centerSlidePercentage={33} centerMode showStatus={false} showArrows={true}>
                         <div className="slide">
                             <div className="photo-cont">
                             <img id="photos"src={julia} />

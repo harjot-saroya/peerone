@@ -145,6 +145,10 @@
     width: 5%;
   }
 
+  .carousel.carousel-slider .control-arrow {
+    background-color: lightgray;
+  }
+
   #photos {
     height: 30vw;
     width: 30vw;
