@@ -1,6 +1,6 @@
 import {react} from "react"
 import testlogo from '../../assets/peerone.jpeg'
-import styles from './header.css'
+import'./header.css'
 
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
         <div className="elements">
             <div className="browsecomponent">
                 <img src={testlogo} id="logo" />
-                <a id="browsebutton" href="" onClick={(e)=>{e.preventDefault();window.scrollTo({top:800,behavior:'smooth'})}}>Browse Mentors</a>
+                <a id="browsebutton" href="" onClick={(e)=>{e.preventDefault();window.scrollTo({top:750,behavior:'smooth'})}}>Browse Mentors</a>
             </div>
         </div>
     )
