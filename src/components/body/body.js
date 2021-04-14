@@ -2,12 +2,14 @@ import React, { useState } from "react"
 import Typed from "react-typed"
 import {studychick} from '../../assets/index.js'
 import "./body.css"
+import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 const Body = () => {
     const [email, setEmail] = useState('');
     const emailHandler = (event) => {
         setEmail(event.target.value)
     }
+    const SimpleForm = () => <MailchimpSubscribe url={"https://peeroneacademy.us1.list-manage.com/subscribe/post?u=d7424f9b94edc1c716d3ffd6d&amp;id=cec63eed43"}/>
     return (
         <div className="bodycontainer">
             <div className="bodycontent">
@@ -28,8 +30,13 @@ const Body = () => {
                     />
                 </div>
                 <div className="form-group-body">
-                <input id="inputbox" placeholder="Email me when its ready" type="text" className="form-control" onChange={emailHandler}/>
-                <a id="emailbutton" for="email" type="submit" href="google.ca" onSubmit={emailHandler}>Reserve my spot</a>
+                <MailchimpSubscribe render={({ subscribe, status, message }) => (
+                    <div>
+                        <SimpleForm onSubmitted={formData => subscribe(formData)} />
+                    </div>
+                    )} url={"https://peeroneacademy.us1.list-manage.com/subscribe/post?u=d7424f9b94edc1c716d3ffd6d&amp;id=cec63eed43"} />
+                <br />
+                
                 </div>
                 <div>
                     <span id="description2">PeerOne is available to a limited number of students as Mentors will be available on a first-come, first-serve basis.</span>

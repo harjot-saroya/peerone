@@ -35,6 +35,28 @@
     margin-top: 2em;
   }
 
+  .form-group-body input {
+    margin-top: 1em;
+
+    width: 30%;
+    height: 3em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .form-group-body button {
+    background-color: purple;
+    margin-left: 1em;
+    width: 20%;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 8px;
+    box-shadow: none;
+    color: white;
+    text-decoration: none;
+  }
+
   .imagecontainer {
     padding-right: 4em;
   }
@@ -131,6 +153,27 @@
 
   .form-group-body {
     margin-top: 2em;
+  }
+
+  .form-group-body input {
+    margin-top: 1em;
+    width: 30%;
+    height: 3em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .form-group-body button {
+    background-color: purple;
+    margin-left: 1em;
+    width: 20%;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 8px;
+    box-shadow: none;
+    color: white;
+    text-decoration: none;
   }
 
   .imagecontainer {

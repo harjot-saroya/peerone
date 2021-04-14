@@ -1,4 +1,5 @@
 import julia from './mentors/julia.jpg'
+import favicon from './favicon.ico'
 import kath from './mentors/kath.jpg'
 import desmond from './mentors/desmond.jpg'
 import filo from './mentors/filo.jpg'
@@ -22,4 +23,4 @@ import row2 from './row2.png'
 import row3 from './row3.png'
 import row4 from './row4.png'
 
-export {julia, kath, desmond, filo, joey, kelly, ryan, york, sam, chairgirl, beanbag, seperator, discuss, confused, descpic, suit, hand, speak, row1, row2, row3, row4, studychick}
+export {julia, kath, desmond, filo, joey, kelly, ryan, york, sam, chairgirl, beanbag, seperator, discuss, confused, descpic, suit, hand, speak, row1, row2, row3, row4, studychick, favicon}

@@ -1,4 +1,10 @@
 @media (min-width: 350px) and (max-width: 980px) {
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+  }
+
   .form-control {
     background-color: #f7f7f7;
     border-style: solid;
@@ -120,6 +126,11 @@
 }
 
 @media (min-width: 981px) {
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+  }
   .form-control {
     background-color: #f7f7f7;
     border-style: solid;
