@@ -1,7 +1,5 @@
 import './App.css';
 import { Helmet } from 'react-helmet'
-import favicon from './assets/shoe.ico'
-import {seperator} from './assets/index'
 import Header from './components/header/header'
 import Body from './components/body/body'
 import Mentors from './components/mentors/mentors'
@@ -18,20 +16,8 @@ import Footer from './components/footer/footer'
 function App() {
   return (
     <div className="App">
-        <Helmet
-        links={[{
-          rel:"icon",
-          type:"image/png",
-          sizes:"16x16",
-          href:"./assets/shoe.ico"}]}
-        >
+        <Helmet>
           <title>{ "PeerOne" }</title>
-        <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="./assets/shoe.ico"
-      />
         </Helmet>
         <Header></Header>
         <Body></Body>
