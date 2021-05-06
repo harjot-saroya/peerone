@@ -1,4 +1,5 @@
 import './App.css';
+import { withRouter } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 import Header from './components/header/header'
 import Body from './components/body/body'
@@ -34,4 +35,4 @@ function App() {
   );
 }
 
-export default App;
+export default withRouter(App);
