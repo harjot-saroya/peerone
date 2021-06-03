@@ -17,10 +17,9 @@ const Header = () => {
         }
     }
 
-    const textChange = (e) => {
-        // USE USE EFFECT
-        changeText(e)
-    }
+    // const textChange = (e) => {
+    //     changeText(e)
+    // }
 
     const routeChange = () => { 
         let path = "";
@@ -29,13 +28,11 @@ const Header = () => {
         {   
             path = "/"
             history.goBack();
-            textChange("XXXX")
         }
         else
         {   
             path = "/blog"
             history.push(path);
-            textChange("TEST")
         }
     }
 
