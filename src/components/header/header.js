@@ -43,8 +43,8 @@ const Header = () => {
         <div className="elements">
             <div className="browsecomponent">
                 <img src={testlogo} id="logo" />
-        <button onClick={() => {routeChange();}}>{buttontxt}</button>
-                <a id="browsebutton" href="" onClick={(e)=>{e.preventDefault(); screenHandler();}}>Browse Mentors</a>
+                    <button className="routerbutton" onClick={() => {routeChange();}}>{buttontxt}</button>
+                    <a id="browsebutton" href="" onClick={(e)=>{e.preventDefault(); screenHandler();}}>Browse Mentors</a>
             </div>
         </div>
     )

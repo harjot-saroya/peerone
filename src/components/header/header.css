@@ -17,6 +17,19 @@
     width: auto;
   }
 
+  .routerbutton {
+    margin-left: 83%;
+    top: 8%;
+    position: fixed;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 1%;
+    background-color: white;
+    border-color: #8dae12;
+    color: #8dae12;
+
+  }
+
   #logo {
     width: 35vw;
     height: 8vw;
@@ -24,9 +37,9 @@
   }
 
   #browsebutton {
-    position: fixed;
     margin-left: 60vw;
     top: 5%;
+    position: fixed;
     white-space: nowrap;
     padding: 1%;
     font-size: 80%;
@@ -48,6 +61,20 @@
 }
 
 @media (min-width: 981px) {
+
+  .routerbutton {
+    margin-left: 75%;
+    margin-top: 1%;
+    position: absolute;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 1%;
+    background-color: white;
+    border-color: #8dae12;
+    color: #8dae12;
+
+  }
+
   .elements {
     position: fixed;
     z-index: 2;
