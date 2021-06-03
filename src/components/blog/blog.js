@@ -10,7 +10,6 @@ const Blog = () => {
         <Header></Header>
         <BlogInfo></BlogInfo>
         </div>
-
     )
 }
 

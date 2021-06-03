@@ -19,7 +19,6 @@ const Header = () => {
 
     const textChange = (e) => {
         // USE USE EFFECT
-        console.log(e)
         changeText(e)
     }
 
@@ -38,8 +37,7 @@ const Header = () => {
             history.push(path);
             textChange("TEST")
         }
-        console.log(buttontxt)
-      }
+    }
      
     return(
         <div className="elements">
