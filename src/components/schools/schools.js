@@ -7,7 +7,7 @@ const Schools = () => {
     return(
         <div className="schoolspage">
             <div className="schoolheader">
-                <span>Some Schools we helped Students gain acceptance to…</span>
+                <span>Some Schools we we have Peer Mentors from…</span>
             </div>
             <div className="pics">
                 <img src={row1}></img>
