@@ -38,11 +38,15 @@ const Header = () => {
             textChange("TEST")
         }
     }
-     
+
+    const routeHome = () => {
+        history.push("/");
+    }
+
     return(
         <div className="elements">
             <div className="browsecomponent">
-                <img src={testlogo} id="logo" />
+                <img src={testlogo} id="logo" onClick={() => {routeHome();}} />
                     <button className="routerbutton" onClick={() => {routeChange();}}>{buttontxt}</button>
                     <a id="browsebutton" href="" onClick={(e)=>{e.preventDefault(); screenHandler();}}>Browse Mentors</a>
             </div>
