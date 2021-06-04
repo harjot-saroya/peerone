@@ -83,7 +83,7 @@ const BlogInfo = () => {
     }
     return (
         <div className="blog">
-            <div className="bodycontainer">
+            <div className="blogcontainer">
                 <div className="content">
                     <h1 id="header">Latest Blog and news</h1>
                 </div>

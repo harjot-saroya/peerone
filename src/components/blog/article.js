@@ -2,7 +2,7 @@ import React from "react"
 import "../body/body.css"
 
 const Article = (title,text) => {
-
+    console.log(text)
     return (
         <div className="article">
             <div className="toptext">
@@ -10,7 +10,7 @@ const Article = (title,text) => {
                 <h1>{title}</h1>
                 </div>
             </div>
-            <div>
+            <div className="bottext">
                 <span>{text}</span>
             </div>
         </div>)

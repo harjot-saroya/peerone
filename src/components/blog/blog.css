@@ -111,6 +111,19 @@
   font-size: 1vw;
 }
 
+.article {
+  width: 80%;
+}
+
+.toptext {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottext span {
+  white-space: pre-wrap;
+}
+
 #news {
   width: 100vw;
   font-size: 1vw;
