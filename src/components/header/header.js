@@ -17,10 +17,9 @@ const Header = () => {
         }
     }
 
-    const textChange = (e) => {
-        // USE USE EFFECT
-        changeText(e)
-    }
+    // const textChange = (e) => {
+    //     changeText(e)
+    // }
 
     const routeChange = () => { 
         let path = "";
@@ -29,20 +28,22 @@ const Header = () => {
         {   
             path = "/"
             history.goBack();
-            textChange("Home")
         }
         else
         {   
             path = "/blog"
             history.push(path);
-            textChange("Blog")
         }
     }
-     
+
+    const routeHome = () => {
+        history.push("/");
+    }
+
     return(
         <div className="elements">
             <div className="browsecomponent">
-                <img src={testlogo} id="logo" />
+                <img src={testlogo} id="logo" onClick={() => {routeHome();}} />
                     <button className="routerbutton" onClick={() => {routeChange();}}>{buttontxt}</button>
                     <a id="browsebutton" href="" onClick={(e)=>{e.preventDefault(); screenHandler();}}>Browse Mentors</a>
             </div>

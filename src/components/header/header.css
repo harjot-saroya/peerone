@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: row;
     width: auto;
+    cursor: pointer;
   }
 
   .routerbutton {
@@ -89,6 +90,7 @@
     display: flex;
     min-width: 40%;
     max-height: 20%;
+    cursor: pointer;
   }
 
   #logo {
