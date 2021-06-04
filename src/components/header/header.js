@@ -25,17 +25,17 @@ const Header = () => {
     const routeChange = () => { 
         let path = "";
         const currpath = window.location.href;
-        if (currpath.substring(currpath.lastIndexOf('/') + 1) == "blog")
+        if (currpath.substring(currpath.lastIndexOf('/') + 1) === "blog")
         {   
             path = "/"
             history.goBack();
-            textChange("XXXX")
+            textChange("Home")
         }
         else
         {   
             path = "/blog"
             history.push(path);
-            textChange("TEST")
+            textChange("Blog")
         }
     }
      
