@@ -74,7 +74,6 @@
 }
 
 .shell {
-  padding: 2em;
   width: 15vw;
   height: 25vw;
   word-wrap: break-word;
@@ -98,8 +97,12 @@
 .newspic {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  margin-bottom: 2em;
+  height: 7em;
+}
+
+.thumbnail {
+  width: 100%;
+  object-fit: fill;
 }
 
 .newstext{
@@ -131,7 +134,6 @@
 }
 
 #newsimg {
-  transform: scale(2);
   max-width: 100%;
   max-height: 100%;
 }

@@ -55,7 +55,7 @@ const BlogInfo = () => {
         <div className="shell">
                 <div className="newscol">
                     <div className="newspic">
-                        <img id="newsimg" src={image}></img>
+                        <img id="newsimg" className="thumbnail" src={image}></img>
                     </div>
                     <div className="newstitle">
                         <span>{name}</span>
@@ -65,7 +65,7 @@ const BlogInfo = () => {
                     </div>
                 </div>
                 <div className="newsrow">
-                    <button onClick={() => {setArt(true);setCurrArt({name:name,news:news});}}>Read more</button>
+                    <button onClick={() => {setArt(true);setCurrArt({name,news});}}>Read more</button>
                 </div>
         </div>)
     }
