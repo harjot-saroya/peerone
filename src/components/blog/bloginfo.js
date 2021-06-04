@@ -22,7 +22,7 @@ const BlogInfo = () => {
                 {   
                     if (item !== null)
                     {   const text = item.text
-                        res.push(cell(item.title,item.type,null,text))
+                        res.push(cell(item.title,item.type,item?.url,text))
                     }
                 })
         }
@@ -47,15 +47,15 @@ const BlogInfo = () => {
         })
         return createCells(allArt)
     }
-    const cell = (name,type,img,news) => {
+    const cell = (name,type,image,news) => {
         if (name === "")
         {return ""}
-        
+
         return(
         <div className="shell">
                 <div className="newscol">
                     <div className="newspic">
-                        <img id="newsimg" src={chairgirl}></img>
+                        <img id="newsimg" src={image}></img>
                     </div>
                     <div className="newstitle">
                         <span>{name}</span>
