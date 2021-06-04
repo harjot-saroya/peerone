@@ -1,5 +1,4 @@
 import {React, useState} from "react"
-import {chairgirl} from '../../assets/index'
 import "../blog/blog.css"
 import data from '../../assets/data.json' 
 import Article from './article'
@@ -50,6 +49,7 @@ const BlogInfo = () => {
     const cell = (name,type,image,news) => {
         if (name === "")
         {return ""}
+
 
         return(
         <div className="shell">
