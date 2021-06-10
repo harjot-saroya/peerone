@@ -65,19 +65,19 @@ const BlogInfo = () => {
                     </div>
                 </div>
                 <div className="newsrow">
-                    <button onClick={() => {setArt(true);setCurrArt({name,news});}}>Read more</button>
+                    <button onClick={() => {setArt(true);setCurrArt({name,news,image});}}>Read more</button>
                 </div>
         </div>)
     }
 
     const show = () => {
-        if (!artSelected)
+        if (artSelected === true)
         {   
             return setArticles(currCategory)
         }
         else
-        {   
-            return Article(currArt.name,currArt.news)
+        {   setArt(false)
+            return Article(currArt.name,currArt.news,currArt.image)
         }
 
     }
@@ -88,14 +88,18 @@ const BlogInfo = () => {
                     <h1 id="header">Latest Blog and news</h1>
                 </div>
             </div>
+            {artSelected ? 
             <div className="nav">
-                <div><button id="navbutton" onClick={() => {setCat('latest')}}>Latest</button></div>
-                <div><button id="navbutton" onClick={() => {setCat('admission')}}>Admission</button></div>
-                <div><button id="navbutton" onClick={() => {setCat('university')}}>University</button></div>
-                <div><button id="navbutton" onClick={() => {setCat('famous')}}>Famous</button></div>
-                <div><button id="navbutton" onClick={() => {setCat('recharge')}}>Recharge</button></div>
-                <div><button id="navbutton" onClick={() => {setCat('students')}}>Students</button></div>
+            <div><button id="navbutton" onClick={() => {setCat('latest')}}>Latest</button></div>
+            <div><button id="navbutton" onClick={() => {setCat('admission')}}>Admission</button></div>
+            <div><button id="navbutton" onClick={() => {setCat('university')}}>University</button></div>
+            <div><button id="navbutton" onClick={() => {setCat('famous')}}>Famous</button></div>
+            <div><button id="navbutton" onClick={() => {setCat('recharge')}}>Recharge</button></div>
+            <div><button id="navbutton" onClick={() => {setCat('students')}}>Students</button></div>
             </div>
+            :""
+            }
+            
 
             <div className="news">
                 {show()}

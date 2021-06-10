@@ -127,6 +127,10 @@
   white-space: pre-wrap;
 }
 
+.photocont {
+  text-align: center;
+}
+
 #news {
   width: 100vw;
   font-size: 1vw;
@@ -152,4 +156,10 @@
 
 #navbutton:hover {
   background-color: #4caf50;
+}
+
+#artphoto {
+  width: 30vw;
+  height: 30vw;
+
 }
