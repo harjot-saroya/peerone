@@ -5,6 +5,7 @@
   }
 
   .icons {
+    display: none !important;
     width: 80%;
     color: white;
     display: flex;
@@ -37,6 +38,7 @@
   }
 
   .icons {
+    display: none !important;
     padding: 2em;
     color: white;
     display: flex;

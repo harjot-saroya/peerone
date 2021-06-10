@@ -14,7 +14,7 @@ const Mentors = () => {
                 <span>from</span>
                 <span id="special"> real college students</span>
                 <br />
-                <span>Featured mentors</span>
+                <span className="subheadding">2000+ Peer Mentors from over 130+ Colleges across North America</span>
             </div>
             <div className="caro-container">
                 <Carousel centerSlidePercentage={33} centerMode={true} showStatus={false} showIndicators={false} selectedItem={1}>

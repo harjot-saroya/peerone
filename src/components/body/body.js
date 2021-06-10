@@ -14,9 +14,8 @@ const Body = () => {
         <div className="bodycontainer">
             <div className="bodycontent">
 
-                <h1 id="header">College applications can be stressful, but they don't have to be.</h1>
+                <h1 id="header">High school students: meet 1-on-1 with current undergrads at the colleges you’re applying to.</h1>
 
-                <span id="description"> High school students: meet 1-on-1 with current undergrads at the colleges you’re applying to. </span>
                 <br />
 
                 <span id="help">I need help with </span>

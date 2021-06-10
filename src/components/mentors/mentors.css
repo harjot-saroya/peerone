@@ -150,6 +150,11 @@
     background-color: lightgray;
   }
 
+  .subheadding {
+    font-size: 0.7em;
+    margin: 0;
+  }
+
   #photos {
     height: 20vw;
     width: 20vw;
