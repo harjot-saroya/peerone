@@ -121,6 +121,15 @@
 .toptext {
   margin-left: auto;
   margin-right: auto;
+  width: 40vw;
+}
+
+.bottext{
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bottext span {
@@ -129,6 +138,11 @@
 
 .photocont {
   text-align: center;
+}
+
+.artHeader{
+  display: block;
+  margin-top: 10em;
 }
 
 #news {
@@ -159,7 +173,7 @@
 }
 
 #artphoto {
-  width: 30vw;
-  height: 30vw;
-
+  width: 40vw;
+  height: 20vw;
+  object-fit: cover;
 }

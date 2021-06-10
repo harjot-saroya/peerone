@@ -71,24 +71,26 @@ const BlogInfo = () => {
     }
 
     const show = () => {
-        if (artSelected === true)
+        if (!artSelected)
         {   
             return setArticles(currCategory)
         }
         else
-        {   setArt(false)
+        {   
             return Article(currArt.name,currArt.news,currArt.image)
         }
 
     }
     return (
         <div className="blog">
+            
+            {(artSelected===false) ? 
+            <div className="ternary">
             <div className="blogcontainer">
-                <div className="content">
-                    <h1 id="header">Latest Blog and news</h1>
-                </div>
+            <div className="content">
+                <h1 id="header">Latest Blog and news</h1>
             </div>
-            {artSelected ? 
+            </div>
             <div className="nav">
             <div><button id="navbutton" onClick={() => {setCat('latest')}}>Latest</button></div>
             <div><button id="navbutton" onClick={() => {setCat('admission')}}>Admission</button></div>
@@ -96,6 +98,7 @@ const BlogInfo = () => {
             <div><button id="navbutton" onClick={() => {setCat('famous')}}>Famous</button></div>
             <div><button id="navbutton" onClick={() => {setCat('recharge')}}>Recharge</button></div>
             <div><button id="navbutton" onClick={() => {setCat('students')}}>Students</button></div>
+            </div>
             </div>
             :""
             }
