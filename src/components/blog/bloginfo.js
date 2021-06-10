@@ -91,6 +91,9 @@ const BlogInfo = () => {
                 <h1 id="header">Latest Blog and news</h1>
             </div>
             </div>
+            </div>
+            :""
+            }
             {!artSelected ? 
                 <div className="nav">
                 <div><button id="navbutton" onClick={() => {setCat('latest')}}>Latest</button></div>
