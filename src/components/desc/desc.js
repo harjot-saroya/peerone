@@ -26,28 +26,16 @@ const Description = () => {
                              <span id="bold">26% of high achieving seniors </span> <span> in the US hire a private college counselor (IECA)</span>
                         </li>
                         <li>
-                            <span>The average cost of a private counselor is approximately</span> <span id="bold">$250 per hour</span>
+                            <span>The average cost of a private counselor is approximately</span> <span id="bold">$250 per hour and can range up to $100,000+
+on college advising packages</span>
                         </li>
                     </ul>
 
                     <div className="textblock">
-                        <span id="bold">
-                            College applications can be stressful, especially without any help.
-                        </span> 
-                        
-                        <span>The unfortunate reality is that schools don’t have the resources to give every high-schooler one-on-one attention, not everyone can afford visits to multiple college campuses, and hiring private help can get verrrry expensive so… then what?
-                        </span>
-                    </div>
-
-                    <div className="textblock">
                         <span>
-                        PeerOne connects you to undergraduate college student Mentors who are exactly where you want to be next year. As current students, they will be able to give you the most relevant, up-to-date information at </span>
-                        <span id="bold">less than 10% of the cost compared to private counselors.</span>
-                    </div>
-                    
-                    <div className="textblock">
-                        <span>
-                        Avoid making the same mistakes by learning from our Peer Mentors’ experience and find out how you can succeed in the college application process and ultimately</span> 
+                        Avoid making the same mistakes by learning from our Peer Mentors’ experience and find out how you can succeed in the college application process at </span>
+                        <span id="bold">less than 10% of the cost compared to private counselors</span>
+                        <span> to ultimately</span>
                         <span id="bold"> gain acceptance to the school that’s just right for you.</span>
                     </div>
 

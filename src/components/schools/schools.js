@@ -7,7 +7,7 @@ const Schools = () => {
     return(
         <div className="schoolspage">
             <div className="schoolheader">
-                <span>Some Schools we we have Peer Mentors from…</span>
+                <span className="schooltitle">Gain access to 2000+ Peer Mentors from over 130+ different colleges across North America including …</span>
             </div>
             <div className="pics">
                 <img src={row1}></img>
