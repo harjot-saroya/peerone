@@ -2,7 +2,7 @@ import {React, useState} from "react"
 import './contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
-const key = "AIzaSyCJw6qBKY0HrGtDWnH29gbBUCyjwoMoWvk"
+// const key = "AIzaSyCJw6qBKY0HrGtDWnH29gbBUCyjwoMoWvk"
 
 
 const ContactForm = () => {

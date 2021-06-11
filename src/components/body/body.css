@@ -115,6 +115,7 @@
   }
 
   #bodyimage {
+    display: none;
     width: 90%;
     height: 100%;
   }
@@ -234,6 +235,7 @@
   }
 
   #bodyimage {
+    display: none;
     width: 90%;
     height: 100%;
   }

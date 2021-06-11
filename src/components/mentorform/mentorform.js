@@ -16,9 +16,9 @@ const MentorForm = () => {
     const [schoolType,setType] = useState("Please select one")
     const [email,setEmail] = useState("")
 
-    // const handleShow = () => {
-    //     setShow(!showSubmit)
-    // }
+    const handleShow = () => {
+        alert("Thank you! We received your request.")
+    }
 
     const handleSchool = e => {
         setSchool(e)
@@ -98,7 +98,7 @@ const MentorForm = () => {
         <br />
         <input id="forminputbox" onSubmit={handleEmail} placeholder="So we can notify you when we find a mentor" className="form-control"/>
         <br />
-        <a id="submitbutton" for="email" type="submit">Submit</a>
+        <a id="submitbutton" for="email" type="submit" onClick={handleShow}>Submit</a>
         {/* <div className="submitcontainer">
 
         </div> */}

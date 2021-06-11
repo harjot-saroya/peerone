@@ -16,6 +16,8 @@
 
   .subtitle {
     margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 1em;
     color: white;
   }
@@ -56,7 +58,7 @@
   }
 
   .info-img {
-    width: 25%;
+    width: 20%;
   }
 
   .title {
