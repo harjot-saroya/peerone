@@ -59,6 +59,17 @@
     padding-right: 4em;
   }
 
+  .back {
+    border: none;
+    color: #8dae12;
+    font-size: 15px;
+    padding: 0;
+    font-weight: 700;
+    background-color: white;
+    border-color: #4caf50;
+    cursor: pointer;
+  }
+
   #header {
     text-align: left;
     width: 100%;
