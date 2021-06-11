@@ -3,7 +3,7 @@ import Collaplse from './Collapsible';
 import './faq.css';
 import { firstBoxText1, firstBoxText2, secondBoxText1, secondBoxText2, secondBoxText3, secondBoxText4, 
     thirdBoxText1, thirdBoxText2, thirdBoxText3 ,fourthBoxText1, fourthBoxText2, fourthBoxText3, 
-    fourthBoxText4, fiffthBoxText1, fiffthBoxText2, sixthBoxText1, sixthBoxText2 } from "./constants"
+    fourthBoxText4, fiffthBoxText1, sixthBoxText1, sixthBoxText2 } from "./constants"
 
 const Faq = () => {
     return(
@@ -34,7 +34,6 @@ const Faq = () => {
             </Collaplse>
             <Collaplse title="What if I don’t like my Peer Mentor?">
                 {fiffthBoxText1}
-                {fiffthBoxText2}
             </Collaplse>
             <Collaplse title="When are you launching?">
                 {sixthBoxText1}
