@@ -65,7 +65,7 @@ const BlogInfo = () => {
                     </div>
                 </div>
                 <div className="newsrow">
-                    <button onClick={() => {setArt(true);setCurrArt({name,news,image});}}>Read more</button>
+                    <button id="readMore" onClick={() => {setArt(true);setCurrArt({name,news,image});}}>Read more</button>
                 </div>
         </div>)
     }
