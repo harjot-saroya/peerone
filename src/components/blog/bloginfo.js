@@ -65,7 +65,7 @@ const BlogInfo = () => {
                     </div>
                 </div>
                 <div className="newsrow">
-                    <button id="readMore" onClick={() => {setArt(true);setCurrArt({name,news,image});}}>Read more</button>
+                    <button id="readMore" onClick={() => {setArt(true);setCurrArt({name,news,image});}}>Read More</button>
                 </div>
         </div>)
     }
@@ -88,7 +88,7 @@ const BlogInfo = () => {
             <div className="ternary">
             <div className="blogcontainer">
             <div className="content">
-                <h1 id="header">Latest Blog and news</h1>
+                <h1 id="header">Latest Blog and News</h1>
             </div>
             </div>
             </div>

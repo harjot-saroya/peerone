@@ -32,6 +32,11 @@
     margin-top: 2em;
   }
 
+  .subheadding {
+    font-size: 0.7em;
+    margin: 0;
+  }
+
   .mentorcarousel {
     margin-left: auto;
     margin-right: auto;
