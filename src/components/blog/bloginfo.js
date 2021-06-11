@@ -8,10 +8,10 @@ const BlogInfo = () => {
     const [artSelected,setArt] = useState(false)
     const [currArt,setCurrArt] = useState({})
 
-    const parse = (text) => {
-        const ind = text.indexOf('.')
-        return text.slice(0,ind)
-    }
+    // const parse = (text) => {
+    //     const ind = text.indexOf('.')
+    //     return text.slice(0,ind)
+    // }
 
     const createCells = (art) => {
         const res = []
@@ -65,7 +65,7 @@ const BlogInfo = () => {
                     </div>
                 </div>
                 <div className="newsrow">
-                    <button id="readMore" onClick={() => {setArt(true);setCurrArt({name,news,image});}}>Read More</button>
+                    <button id="readMore" onClick={() => {setArt(true);setCurrArt({name,news,image});window.scrollTo(0, 0);}}>Read More</button>
                 </div>
         </div>)
     }
@@ -77,7 +77,7 @@ const BlogInfo = () => {
         }
         else
         {
-            return Article(currArt.name,currArt.news,currArt.image)
+            return Article(currArt.name,currArt.news,currArt.image, setArt)
         }
 
     }

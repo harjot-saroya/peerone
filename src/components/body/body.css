@@ -180,6 +180,16 @@
     padding-right: 4em;
   }
 
+  .back {
+    border: none;
+    color: #8dae12;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: white;
+    border-color: #4caf50;
+    cursor: pointer;
+  }
+
   #header {
     width: 50%;
     font-size: 2em;
