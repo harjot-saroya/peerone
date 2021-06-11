@@ -10,6 +10,9 @@ import kelly from './mentors/kelly.jpg'
 import ryan from './mentors/ryan.jpg'
 import york from './mentors/york.jpg'
 import sam from './mentors/sam.jpg'
+import list from "./list.png"
+import magnify from "./magnify.png"
+import paperfold from "./paperfold.png"
 import chairgirl from './chairgirl.png'
 import beanbag from './beanbag.png'
 import seperator from './seperator.png'
@@ -24,4 +27,4 @@ import row2 from './row2.png'
 import row3 from './row3.png'
 import row4 from './row4.png'
 
-export {julia, jessica, kath, desmond, filo, joey, kelly, ryan, york, sam, chairgirl, beanbag, seperator, discuss, confused, descpic, suit, hand, speak, row1, row2, row3, row4, studychick, favicon}
+export {julia, jessica, kath, desmond, filo, joey, kelly, ryan, york, sam, chairgirl, beanbag, seperator, discuss, confused, descpic, suit, hand, speak, row1, row2, row3, row4, studychick, list, magnify, paperfold, favicon}

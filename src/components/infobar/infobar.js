@@ -1,41 +1,47 @@
 import React from "react"
-import {suit,hand,speak} from '../../assets/index.js'
+import {list,magnify,paperfold} from '../../assets/index.js'
 import "./infobar.css"
 
 const Infobar = () => {
     return(
             <div className="icon-background">
+                <div className="title">
+                    What we help with
+                </div>
+                <div className="subtitle">
+                    We help you get the information you need to submit your application with confidence
+                </div>
                 <div className="icons">
                             <div className="cell">
-                                <img src={suit}></img>
+                                <img className="info-img" src={list}></img>
                                 <div className="text">
                                     <span>
-                                    Gain Access to 1000s of Mentors All Over North America
+                                    Building a school list
                                     </span>
                                     <span id="bottext">
-                                    With over 1000+ mentors to choose from. From a variety of fields, schools, and programs. The mentor for you is just a click away.
+                                    Need help deciding which schools & programs to apply to? Talk to a Peer Mentor about your interests.
                                     </span>
                                 </div>
                             </div>
                             <div className="cell">
-                                <img src={hand}></img>
+                                <img className="info-img" src={magnify}></img>
                                 <div className="text">
                                     <span>
-                                    Stand Out on Your Essay and Application
+                                    Essay Writing/Feedback
                                     </span>
                                     <span id="bottext">
-                                    Get advice from those that have already done it. Walked the walk so now they can tell you exactly what they did. Get access to insider tips and tactics to stand apart from the crowd.
+                                    Avoid common essay mistakes by learning from the experience of our Peer Mentors. Figure out how you can write the most compelling narrative that is authentically yours.
                                     </span>
                                 </div>
                             </div>
                             <div className="cell">
-                                <img src={speak}></img>
+                                <img className="info-img" src={paperfold}></img>
                                 <div className="text">
                                     <span>
-                                    Actionable Insights For Your Clarity and Peace of Mind
+                                    Choosing a college
                                     </span>
                                     <span id="bottext">
-                                    With one of the biggest decisions of your life, make sure you get all the information you need so you can make the right decision for yourself.
+                                    Don’t be unpleasantly surprised by campus & student life after committing and arriving at school. It’s too late. Make the best, informed decision for you.
                                     </span>
                                 </div>
                             </div>

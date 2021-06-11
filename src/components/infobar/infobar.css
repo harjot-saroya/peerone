@@ -4,8 +4,23 @@
     width: 100vw;
   }
 
+  .info-img {
+    width: 33%;
+  }
+
+  .title {
+    padding-top: 1.5em;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .subtitle {
+    margin-top: 10px;
+    font-size: 1em;
+    color: white;
+  }
+
   .icons {
-    display: none !important;
     width: 80%;
     color: white;
     display: flex;
@@ -13,6 +28,8 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
   }
 
   .icons span {
@@ -35,11 +52,27 @@
   .icon-background {
     background-color: #8eae15;
     width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .info-img {
+    width: 25%;
+  }
+
+  .title {
+    padding-top: 1.5em;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .subtitle {
+    margin-top: 10px;
+    font-size: 1em;
+    color: white;
   }
 
   .icons {
-    display: none !important;
-    padding: 2em;
+    padding-bottom: 2em;
     color: white;
     display: flex;
     flex-direction: row;
@@ -56,11 +89,16 @@
 
   .cell {
     width: 100%;
-    margin: 1em;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .text {
+    font-size: 25px;
   }
 
   #bottext {
-    font-size: 13px;
+    font-size: 15px;
     margin: 0;
   }
 }
