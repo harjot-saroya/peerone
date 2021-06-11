@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import {julia,kath,desmond,filo,joey,kelly,ryan,york,sam} from '../../assets/index.js'
+import {julia,kath,desmond,filo,joey,kelly,ryan,york, sam, jessica} from '../../assets/index.js'
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -52,6 +52,18 @@ const Mentors = () => {
                                 <span>Harvard University</span>
                                 <br />
                                 <span>Law</span>
+                            </div>
+                        </div>
+                        <div className="slide">
+                            <div className="photo-cont">
+                            <img id="photos"src={jessica} />
+                            </div>
+                            <div className="textcont">
+                                <span id="top">Wesdjina Brevil</span>
+                                <br />
+                                <span>University of Pennsylvania</span>
+                                <br />
+                                <span>Economics</span>
                             </div>
                         </div>
                         <div className="slide">
