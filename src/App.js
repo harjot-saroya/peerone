@@ -23,10 +23,10 @@ function App() {
         <Header></Header>
         <Body></Body>
         <Mentors></Mentors>
+        <Infobar></Infobar>
         <MentorForm></MentorForm>
         <Tutorial></Tutorial>
         <Description></Description>
-        <Infobar></Infobar>
         <Schools></Schools>
         <Faq></Faq>
         <ContactForm></ContactForm>
