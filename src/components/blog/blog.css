@@ -180,17 +180,16 @@
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 2em;
-  }
+  } 
 
   #readMore {
-    margin-top: 23em;
+    margin-top: 16em;
     height: 10px;
     width: 60px;
     padding: 0;
-    font-size: 7px;
-    border: solid;
-    border-radius: 15px;
-    border-width: 2px;
+    font-size: 10px;
+    border: none;
+    color: #8dae12;
     background-color: white;
     border-color: #4caf50;
     cursor: pointer;
@@ -383,7 +382,6 @@
 
   #readMore {
     border: none;
-    border-width: 2px;
     color: #8dae12;
     font-size: 15px;
     font-weight: 700;
