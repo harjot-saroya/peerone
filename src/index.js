@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {Switch, Route, BrowserRouter } from "react-router-dom";
 
 import Blog from "./components/blog/blog";
+import Flyer from "./components/flyer/index.js";
 
 const routing = (
   <BrowserRouter>
@@ -14,6 +15,7 @@ const routing = (
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/blog" component={Blog} />
+        <Route path="/flyer" component={Flyer} />
       </Switch>
     </div>
   </BrowserRouter>

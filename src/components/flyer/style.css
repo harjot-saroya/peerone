@@ -1,0 +1,127 @@
+#heading {
+    color: #8DAE12;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 2em;
+    margin-left: 110px !important;
+}
+
+#heading-Break {
+    height: 4px;
+    color: #8DAE12;
+    margin: 0px 10px;
+    opacity: 100%;
+}
+
+.headingWithBackground {
+    color: #8DAE12;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#thirdHeading{
+    background-color: #8DAE12;
+    color: white;
+    padding: 12px 0px;
+    font-weight: bold;
+}
+
+.number{
+
+    text-align: center;
+    background-color:#566122;
+    border: 1px solid #566122;
+    border-radius: 50%;
+    color: white;
+    width: 65px;
+    height:65px;
+    padding: 5px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.n1Heading{
+
+   color: #566122;
+   font-size: 30px;
+   font-weight: bold;
+   font-family: sans-serif;
+
+}
+
+.n1Paragraph{
+
+    font-family: sans-serif;
+} 
+
+
+#allImages{
+
+    margin-top: 5px;
+}
+
+#qrCode{
+    width: 300px;
+    height: 300px;
+}
+
+.imageSize{
+    width: 40px;
+    height: 40px;
+
+}
+
+#qrParagraphs{
+    margin-top: 20px;
+    /* text-align: justify; */
+    margin-left: -40px;
+}
+
+
+
+#qrCodeTopText{
+    
+    /* z-index: 1 !important; */
+    position: relative;
+    margin-bottom: -25px;
+    text-align: center;
+   
+}
+
+#qrCodeBottomText{
+    
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+
+
+#contactInformation{
+    float: right;
+    background-color: #8dae127a;
+    padding: 10px 10px;
+}
+
+
+
+#contactInformationTopText{
+    text-align: right; 
+    margin-bottom: -3px;
+    margin-right:  45px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+
+.contactInformationStyling{
+    letter-spacing: 2px;
+    padding-bottom:-5px;
+}
+.contactInformationStyling a{
+    text-decoration: none !important;
+    color: black;
+}
