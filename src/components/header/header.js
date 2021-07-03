@@ -38,6 +38,10 @@ const Header = () => {
         }
     }
 
+    const routeFlyer = () => {
+        history.push("/flyer")
+    }
+
     const routeHome = () => {
         history.push("/");
     }
@@ -46,6 +50,7 @@ const Header = () => {
         <div className="elements">
             <div className="browsecomponent">
                 <img src={testlogo} id="logo" onClick={() => {routeHome();}} />
+                    <button className="flyerButton" onClick={() => {routeFlyer();}}>Flyer</button>
                     { !onBlogPage && <button className="routerbutton" onClick={() => {routeChange();}}>{buttontxt}</button> }
                     { !onBlogPage && <a id="browsebutton" href="" onClick={(e)=>{e.preventDefault(); screenHandler();}}>Browse Mentors</a> }
             </div>
