@@ -1,6 +1,11 @@
 import React from "react"
 import "./style.css"
 import light from "./Images/light.png"
+import schools from "./Images/schools.png"
+import QRCode from "./Images/QRCode.png"
+import Safari from "./Images/Safari.png"
+import Instagram from "./Images/Instagram.png"
+import Email from "./Images/Email.png"
 
 const Flyer = () => {
 
@@ -109,7 +114,7 @@ const Flyer = () => {
     
         <div className="container">
             <div className="row mx-3" id="allImages">
-                <img src="Images/PeerOne All Images.png" alt="peer one" />
+                <img src={schools} alt="peer one" />
             </div>
         </div>
     
@@ -134,7 +139,7 @@ const Flyer = () => {
     
                         <div className="col">
                             <p styles="font-weight: bold;" id="qrCodeTopText">Scan to Sign Up!<sup>1</sup></p>
-                            <img src="Images/Qr Code.png" alt="Qr Code" id="qrCode" />
+                            <img src={QRCode} alt="Qr Code" id="qrCode" />
                             <a href="https://bit.ly/2U7qGET">
                                 <p id="qrCodeBottomText">https://bit.ly/2U7qGET</p>
                             </a>
@@ -166,14 +171,14 @@ const Flyer = () => {
                     <p id="contactInformationTopText">Get to Know Us More!</p>
                     <div id="contactInformation">
     
-                        <img src="Images/Safari.png" alt="Website" className="imageSize" /> &nbsp <span
+                        <img src={Safari} alt="Website" className="imageSize" /> &nbsp <span
                             className="contactInformationStyling"><a
                                 href="https://www.peeroneacademy.com">www.peeroneacademy.com</a></span> <br /><br />
     
-                        <img src="Images/Instagram.png" alt="Instagram" className="imageSize" /> &nbsp <span
+                        <img src={Instagram} alt="Instagram" className="imageSize" /> &nbsp <span
                             className="contactInformationStyling">@peeronemarketplace</span><br /><br />
     
-                        <img src="Images/Email.png" alt="Email" className="imageSize" /> &nbsp <span
+                        <img src={Email} alt="Email" className="imageSize" /> &nbsp <span
                             className="contactInformationStyling"><a
                                 href="mailto:info@peeroneacademy.com">info@peeroneacademy.com</a></span>
     
