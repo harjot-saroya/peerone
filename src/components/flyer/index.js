@@ -1,4 +1,7 @@
 import React from "react"
+import {useHistory} from "react-router-dom"
+
+
 import "./style.css"
 import light from "./Images/light.png"
 import schools from "./Images/schools.png"
@@ -9,13 +12,19 @@ import Email from "./Images/Email.png"
 
 const Flyer = () => {
 
+    const history = useHistory();
+
+    const routeHome = () => {
+        history.push("/");
+    }
+
     return (
     <div>
         <div className="container-fluid">
             <div className="row">
                 <div className="col-lg-3 col-md-6 col-sm-12">
     
-                    <img src={light} alt="PeerOne" />
+                    <img id="flyer-logo" src={light} alt="PeerOne" onClick={() => routeHome()} />
     
                 </div>
                 <div className="col-lg-9 col-md-6 col-sm-12">

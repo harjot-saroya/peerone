@@ -1,11 +1,13 @@
 import {react,useState} from "react"
-import {useHistory} from "react-router-dom"
+import {useLocation, useHistory} from "react-router-dom"
 import testlogo from '../../assets/peerone.jpeg'
 import'./header.css'
 
 const Header = () => {
     const history = useHistory();
     const [buttontxt,changeText] = useState("Blog")
+    const location = useLocation();
+    const onBlogPage = location.pathname == "/blog";
 
     const screenHandler = () => {
         const size = window.screen.width;
@@ -44,8 +46,8 @@ const Header = () => {
         <div className="elements">
             <div className="browsecomponent">
                 <img src={testlogo} id="logo" onClick={() => {routeHome();}} />
-                    <button className="routerbutton" onClick={() => {routeChange();}}>{buttontxt}</button>
-                    <a id="browsebutton" href="" onClick={(e)=>{e.preventDefault(); screenHandler();}}>Browse Mentors</a>
+                    { !onBlogPage && <button className="routerbutton" onClick={() => {routeChange();}}>{buttontxt}</button> }
+                    { !onBlogPage && <a id="browsebutton" href="" onClick={(e)=>{e.preventDefault(); screenHandler();}}>Browse Mentors</a> }
             </div>
         </div>
     )

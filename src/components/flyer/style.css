@@ -28,6 +28,11 @@
     font-weight: bold;
 }
 
+#flyer-logo {
+    margin: 1em;
+    cursor: pointer;
+}
+
 .number{
 
     text-align: center;
