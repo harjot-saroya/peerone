@@ -180,14 +180,14 @@ const Flyer = () => {
                     <p id="contactInformationTopText">Get to Know Us More!</p>
                     <div id="contactInformation">
     
-                        <img src={Safari} alt="Website" className="imageSize" /> &nbsp <span
+                        <img src={Safari} alt="Website" className="imageSize" /> <span
                             className="contactInformationStyling"><a
                                 href="https://www.peeroneacademy.com">www.peeroneacademy.com</a></span> <br /><br />
     
-                        <img src={Instagram} alt="Instagram" className="imageSize" /> &nbsp <span
+                        <img src={Instagram} alt="Instagram" className="imageSize" /> <span
                             className="contactInformationStyling">@peeronemarketplace</span><br /><br />
     
-                        <img src={Email} alt="Email" className="imageSize" /> &nbsp <span
+                        <img src={Email} alt="Email" className="imageSize" /> <span
                             className="contactInformationStyling"><a
                                 href="mailto:info@peeroneacademy.com">info@peeroneacademy.com</a></span>
     
