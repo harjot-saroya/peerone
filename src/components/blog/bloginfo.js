@@ -88,7 +88,7 @@ const BlogInfo = () => {
             <div className="ternary">
             <div className="blogcontainer">
             <div className="content">
-                <h1 id="header">Latest Blog and News</h1>
+                <h1 id="header">PeerOne College Admissions Blog</h1>
             </div>
             </div>
             </div>
@@ -97,11 +97,11 @@ const BlogInfo = () => {
             {!artSelected ? 
                 <div className="nav">
                 <div><button id="navbutton" onClick={() => {setCat('latest')}}>Latest</button></div>
-                <div><button id="navbutton" onClick={() => {setCat('admission')}}>Admission</button></div>
-                <div><button id="navbutton" onClick={() => {setCat('university')}}>University</button></div>
-                <div><button id="navbutton" onClick={() => {setCat('famous')}}>Famous</button></div>
-                <div><button id="navbutton" onClick={() => {setCat('recharge')}}>Recharge</button></div>
-                <div><button id="navbutton" onClick={() => {setCat('students')}}>Students</button></div>
+                <div><button id="navbutton" onClick={() => {setCat('admission')}}>Admission Essay Writing</button></div>
+                <div><button id="navbutton" onClick={() => {setCat('university')}}>Financial Aid and Scholarships</button></div>
+                <div><button id="navbutton" onClick={() => {setCat('famous')}}>Sports Recruitment</button></div>
+                <div><button id="navbutton" onClick={() => {setCat('recharge')}}>Summer Planning</button></div>
+                <div><button id="navbutton" onClick={() => {setCat('students')}}>Course Planning</button></div>
                 </div>
                 :""
             }

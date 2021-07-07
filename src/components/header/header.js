@@ -50,7 +50,7 @@ const Header = () => {
         <div className="elements">
             <div className="browsecomponent">
                 <img src={testlogo} id="logo" onClick={() => {routeHome();}} />
-                    <button className="flyerButton" onClick={() => {routeFlyer();}}>Flyer</button>
+                    <button className="flyerButton" onClick={() => {routeFlyer();}}>Pre-Launch Offer</button>
                     { !onBlogPage && <button className="routerbutton" onClick={() => {routeChange();}}>{buttontxt}</button> }
                     { !onBlogPage && <a id="browsebutton" href="" onClick={(e)=>{e.preventDefault(); screenHandler();}}>Browse Mentors</a> }
             </div>
